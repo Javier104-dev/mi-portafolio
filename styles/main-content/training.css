@@ -1,0 +1,39 @@
+.training-section {
+  margin-bottom: 9rem;
+}
+
+.training-title {
+  color: rgb(226 232 240);
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.training-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.training-card:last-child {
+  margin-bottom: 0rem;
+}
+
+.training-card__photo {
+  object-fit: cover;
+  border: 2px solid rgba(158, 157, 157, 0.767);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.training-card__link {
+  display: inline-block;
+  color: rgb(226 232 240);
+  text-decoration: none;
+  margin-bottom: 0.7rem;
+}
+
+.training-card__description {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}

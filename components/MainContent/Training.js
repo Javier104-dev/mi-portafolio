@@ -5,63 +5,73 @@ const Training = () => {
   return (
     <section className='training-section'>
       <h1 className='training-title'>Formación</h1>
-      <div className='training-courses'>
-        <div className='training-courses__card'>
-          <Image
-            alt='Html'
-            src={'/training/argentina_programa.jpg'}
-            height={200}
-            width={240}
-            className='training-courses__card__photo'
-          />
+      <div className='training-card'>
+        <Image
+          alt='Argentina Programa'
+          src={'/training/argentina_programa.jpg'}
+          height={120}
+          width={140}
+          className='training-card__photo'
+        />
+        <div>
           <a
             href='https://argentinaprograma.com/'
             target='_blank'
             rel='noopener noreferrer'
-            className='training-courses__card__link'
+            className='training-card__link'
           >
             r/Argentina Programa
           </a>
-          <p>Inicio: 5 Mayo 2022</p>
-          <p>Finalización: 19 Octubre 2023</p>
+          <div className='training-card__description'>
+            <p>Inicio: 5 Mayo 2022</p>
+            <p>Finalizado: 19 Octubre 2023</p>
+          </div>
         </div>
-        <div  className='training-courses__card'>
-          <Image
-            alt='Html'
-            src={'/training/oracle.jpg'}
-            height={200}
-            width={240}
-            className='training-courses__card__photo'
-          />
+      </div>
+      <div className='training-card'>
+        <Image
+          alt='Oracle'
+          src={'/training/oracle.jpg'}
+          height={120}
+          width={140}
+          className='training-card__photo'
+        />
+        <div>
           <a
             href='https://www.oracle.com/ar/education/oracle-next-education/'
             target='_blank'
             rel='noopener noreferrer'
-            className='training-courses__card__link'
+            className='training-card__link'
           >
             Programa ONE Oracle
           </a>
-          <p>Inicio: 9 Agosto 2022</p>
-          <p>Finalización: 16 Diciembre 2022</p>
+          <div className='training-card__description'>
+            <p>Inicio: 9 Agosto 2022</p>
+            <p>Finalizado: 16 Diciembre 2022</p>
+          </div>
         </div>
-        <div  className='training-courses__card'>
-          <Image
-            alt='Html'
-            src={'/training/argentina_programa4.0.jpg'}
-            height={200}
-            width={240}
-            className='training-courses__card__photo'
-          />
+      </div>
+      <div className='training-card'>
+        <Image
+          alt='Argentina Programa 4.0'
+          src={'/training/argentina_programa4.0.jpg'}
+          height={120}
+          width={140}
+          className='training-card__photo'
+        />
+        <div>
           <a
             href='https://www.argentina.gob.ar/economia/conocimiento/argentina-programa'
             target='_blank'
             rel='noopener noreferrer'
-            className='training-courses__card__link'
+            className='training-card__link'
           >
             Argentina Programa 4.0
           </a>
-          <p>Inicio: 28 Febrero 2023</p>
-          <p>Finalización: 4 Octubre 2023</p>
+          <div className='training-card__description'>
+            <p>Inicio: 28 Febrero 2023</p>
+            <p>Finalizado: 4 Octubre 2023</p>
+          </div>
         </div>
       </div>
     </section>

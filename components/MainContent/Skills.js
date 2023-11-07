@@ -10,81 +10,81 @@ const Skills = () => {
           <Image
             alt='Html'
             src={'/skills/html.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">HTML</p>
+          <p>HTML</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='JavaScript'
             src={'/skills/javascript.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">JavaScript</p>
+          <p>JavaScript</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='Css'
             src={'/skills/css.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">CSS</p>
+          <p>CSS</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='Node-js'
             src={'/skills/node-js.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">Node.js</p>
+          <p>Node.js</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='React'
             src={'/skills/react.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">React</p>
+          <p>React</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='Nextjs'
             src={'/skills/nextjs.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">Next.js</p>
+          <p>Next.js</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='MongoDb'
             src={'/skills/mysql.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">MySQL</p>
+          <p>MySQL</p>
         </div>
         <div className='skills-list__item'>
           <Image
             alt='MongoDb'
             src={'/skills/mongodb.png'}
-            height={100}
-            width={100}
+            height={80}
+            width={80}
             className='skills-list__item__icon'
           />
-          <p className="skills-list__item__name">MongoDb</p>
+          <p>MongoDb</p>
         </div>
       </div>
     </section>

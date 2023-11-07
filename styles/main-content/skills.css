@@ -1,0 +1,22 @@
+.skills-section {
+  margin-bottom: 9rem;
+}
+
+.skills-title {
+  color: rgb(226 232 240);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.skills-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.about-section {
+  margin-bottom: 9rem;
+}
+
+.about-title {
+  color: rgb(226 232 240);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.about-paragraph {
+  line-height: 1.5rem;
+}

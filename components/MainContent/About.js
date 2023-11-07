@@ -1,4 +1,5 @@
 import '@/styles/main-content/about.css'
+import Image from 'next/image';
 
 const About = () => {
   return (

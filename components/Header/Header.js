@@ -4,34 +4,34 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header className='header'>
-      <section className='hero-container'>
+      <section className='header-container'>
         <div>
-          <h1 className='hero-presentation__title'>Javier Anibal Villca</h1>
-          <p className='hero-presentation__subtitle'>Programación Web Full Stack</p>
-          <p className='hero-presentation__paragraph'>
+          <h1 className='header-presentation__title'>Javier Villca</h1>
+          <p className='header-presentation__subtitle'>Programación Web Full Stack</p>
+          <p className='header-presentation__paragraph'>
             Estoy formándote en Programación Full Stack y actualmente estoy participando en el proyecto ONE en Alura Latam y estoy realizando el curso r/Argentina Programa
           </p>
-          <nav className='hero-nav'>
+          <nav className='header-nav'>
             <ul className='asd'>
               <li>
-                <a href='#' className='hero-nav__link'>Sobre Mi</a>
+                <a href='#' className='header-nav__link'>Sobre Mi</a>
               </li>
               <li>
-                <a href='#' className='hero-nav__link'>Skills</a>
+                <a href='#' className='header-nav__link'>Skills</a>
               </li>
               <li>
-                <a href='#' className='hero-nav__link'>Formación</a>
+                <a href='#' className='header-nav__link'>Formación</a>
               </li>
               <li>
-                <a href='#' className='hero-nav__link'>Proyectos</a>
+                <a href='#' className='header-nav__link'>Proyectos</a>
               </li>
               <li>
-                <a href='#' className='hero-nav__link'>Contacto</a>
+                <a href='#' className='header-nav__link'>Contacto</a>
               </li>
             </ul>
           </nav>
         </div>
-        <ul className='hero-networks'>
+        <ul className='header-networks'>
           <li>
             <a
               href='https://www.linkedin.com/in/javier-villca-1ab624214/'
