@@ -19,6 +19,7 @@
   color: rgb(226 232 240);
   font-size: 3rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .header-presentation__subtitle {

@@ -1,5 +1,6 @@
 .training-section {
   margin-bottom: 9rem;
+  scroll-margin-top: 6rem
 }
 
 .training-title {
@@ -21,8 +22,8 @@
 
 .training-card__photo {
   object-fit: cover;
-  border: 2px solid rgba(158, 157, 157, 0.767);
   border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
 }
 
@@ -30,10 +31,11 @@
   display: inline-block;
   color: rgb(226 232 240);
   text-decoration: none;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .training-card__description {
   font-size: 0.9rem;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
 }

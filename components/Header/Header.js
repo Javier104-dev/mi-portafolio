@@ -1,12 +1,15 @@
 import '@/styles/header/header.css'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <header className='header'>
       <section className='header-container'>
         <div>
-          <h1 className='header-presentation__title'>Javier Villca</h1>
+          <h1>
+            <Link href='/' className='header-presentation__title'>Javier Villca</Link>
+          </h1>
           <p className='header-presentation__subtitle'>Programación Web Full Stack</p>
           <p className='header-presentation__paragraph'>
             Estoy formándote en Programación Full Stack y actualmente estoy participando en el proyecto ONE en Alura Latam y estoy realizando el curso r/Argentina Programa
@@ -14,19 +17,16 @@ const Header = () => {
           <nav className='header-nav'>
             <ul className='asd'>
               <li>
-                <a href='#' className='header-nav__link'>Sobre Mi</a>
+                <a href='#about' className='header-nav__link'>Sobre Mi</a>
               </li>
               <li>
-                <a href='#' className='header-nav__link'>Skills</a>
+                <a href='#skills' className='header-nav__link'>Skills</a>
               </li>
               <li>
-                <a href='#' className='header-nav__link'>Formación</a>
+                <a href='#training' className='header-nav__link'>Formación</a>
               </li>
               <li>
-                <a href='#' className='header-nav__link'>Proyectos</a>
-              </li>
-              <li>
-                <a href='#' className='header-nav__link'>Contacto</a>
+                <a href='#projects' className='header-nav__link'>Proyectos</a>
               </li>
             </ul>
           </nav>

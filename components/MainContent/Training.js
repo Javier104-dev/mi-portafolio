@@ -3,16 +3,18 @@ import '@/styles/main-content/training.css'
 
 const Training = () => {
   return (
-    <section className='training-section'>
+    <section className='training-section' id='training'>
       <h1 className='training-title'>Formación</h1>
       <div className='training-card'>
-        <Image
-          alt='Argentina Programa'
-          src={'/training/argentina_programa.jpg'}
-          height={120}
-          width={140}
-          className='training-card__photo'
-        />
+        <div>
+          <Image
+            alt='Argentina Programa'
+            src={'/training/argentina_programa.jpg'}
+            height={120}
+            width={140}
+            className='training-card__photo'
+          />
+        </div>
         <div>
           <a
             href='https://argentinaprograma.com/'
@@ -29,13 +31,15 @@ const Training = () => {
         </div>
       </div>
       <div className='training-card'>
-        <Image
-          alt='Oracle'
-          src={'/training/oracle.jpg'}
-          height={120}
-          width={140}
-          className='training-card__photo'
-        />
+        <div>
+          <Image
+            alt='Oracle'
+            src={'/training/oracle.jpg'}
+            height={120}
+            width={140}
+            className='training-card__photo'
+          />
+        </div>
         <div>
           <a
             href='https://www.oracle.com/ar/education/oracle-next-education/'
@@ -52,13 +56,15 @@ const Training = () => {
         </div>
       </div>
       <div className='training-card'>
-        <Image
-          alt='Argentina Programa 4.0'
-          src={'/training/argentina_programa4.0.jpg'}
-          height={120}
-          width={140}
-          className='training-card__photo'
-        />
+        <div>
+          <Image
+            alt='Argentina Programa 4.0'
+            src={'/training/argentina_programa4.0.jpg'}
+            height={120}
+            width={140}
+            className='training-card__photo'
+          />
+        </div>
         <div>
           <a
             href='https://www.argentina.gob.ar/economia/conocimiento/argentina-programa'

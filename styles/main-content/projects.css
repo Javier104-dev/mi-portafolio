@@ -1,0 +1,39 @@
+.projects-section {
+  scroll-margin-top: 6rem
+}
+
+.projects-title {
+  color: rgb(226 232 240);
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.projects-list__card {
+  display: flex;
+  margin-bottom: 3rem;
+  transition: 0.2s;
+  gap: 1rem;
+}
+
+.projects-list__card__photo {
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+}
+
+.projects-list__card:last-child {
+  margin-bottom: 0rem;
+}
+
+.projects-list__card__name {
+  color: rgb(226 232 240);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.projects-list__card__description {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
