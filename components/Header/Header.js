@@ -1,32 +1,66 @@
+'use client'
 import '@/styles/header/header.css'
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Header = () => {
+  const [selected, setSelected] = useState('');
+
   return (
     <header className='header'>
       <section className='header-container'>
         <div>
           <h1>
-            <Link href='/' className='header-presentation__title'>Javier Villca</Link>
+            <Link
+              onClick={() => setSelected('')}
+              href='/'
+              className='header-presentation__title'
+            >
+              Javier Villca
+            </Link>
           </h1>
           <p className='header-presentation__subtitle'>Programación Web Full Stack</p>
           <p className='header-presentation__paragraph'>
             Estoy formándote en Programación Full Stack y actualmente estoy participando en el proyecto ONE en Alura Latam y estoy realizando el curso r/Argentina Programa
           </p>
           <nav className='header-nav'>
-            <ul className='asd'>
+            <ul>
               <li>
-                <a href='#about' className='header-nav__link'>Sobre Mi</a>
+                <Link
+                  onClick={() => setSelected('option1')}
+                  href='#about'
+                  className={'header-nav__link ' + (selected === 'option1' ? 'selected' : '')}
+                >
+                  Sobre Mi
+                </Link>
               </li>
               <li>
-                <a href='#skills' className='header-nav__link'>Skills</a>
+                <a
+                  onClick={() => setSelected('option2')}
+                  href='#skills'
+                  className={'header-nav__link ' + (selected === 'option2' ? 'selected' : '')}
+                >
+                  Skills
+                </a>
               </li>
               <li>
-                <a href='#training' className='header-nav__link'>Formación</a>
+                <a
+                  onClick={() => setSelected('option3')}
+                  href='#training'
+                  className={'header-nav__link ' + (selected === 'option3' ? 'selected' : '')}
+                >
+                  Formación
+                </a>
               </li>
               <li>
-                <a href='#projects' className='header-nav__link'>Proyectos</a>
+                <a
+                  onClick={() => setSelected('option4')}
+                  href='#projects'
+                  className={'header-nav__link ' + (selected === 'option4' ? 'selected' : '')}
+                >
+                  Proyectos
+                </a>
               </li>
             </ul>
           </nav>
