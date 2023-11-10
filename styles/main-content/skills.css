@@ -1,6 +1,7 @@
 .skills-section {
   margin-bottom: 9rem;
-  scroll-margin-top: 6rem
+  scroll-margin-top: 6rem;
+  position: relative;
 }
 
 .skills-title {
@@ -20,4 +21,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.skills-section:hover .skills-title {
+  color: #2dd4bf;
 }

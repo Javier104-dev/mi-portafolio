@@ -1,6 +1,7 @@
 .about-section {
   margin-bottom: 9rem;
   scroll-margin-top: 6rem;
+  position: relative;
 }
 
 .about-title {
@@ -12,4 +13,8 @@
 
 .about-paragraph {
   line-height: 1.5rem;
+}
+
+.about-section:hover .about-title {
+  color: #2dd4bf;
 }

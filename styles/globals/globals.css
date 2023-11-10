@@ -1,0 +1,35 @@
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: rgb(15 23 42);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 6rem;
+  gap: 1rem;
+}
+
+.layer-link {
+  font-size: 0;
+}
+
+.layer {
+  height: calc(100% + 4rem);
+  width: calc(100% + 4rem);
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(94, 234, 212, 0.1);
+  background-color: rgba(226, 232, 240, 0.03);
+  opacity: 0;
+}
+
+.layer:hover{
+  opacity: 1;
+}

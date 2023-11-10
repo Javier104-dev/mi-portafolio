@@ -27,6 +27,9 @@ const Projects = () => {
               <h1 className='projects-list__card__name'>{project.name}</h1>
               <p className='projects-list__card__description'>{project.introduction}</p>
             </div>
+            <a className='layer-link' href='#'>
+              <div className='layer'/>
+            </a>
           </div>
         ))}
       </div>

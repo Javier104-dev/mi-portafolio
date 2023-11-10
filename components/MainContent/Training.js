@@ -29,6 +29,9 @@ const Training = () => {
             <p>Finalizado: 19 Octubre 2023</p>
           </div>
         </div>
+        <a className='layer-link' href='#'>
+          <div className='layer'/>
+        </a>
       </div>
       <div className='training-card'>
         <div>
@@ -54,6 +57,9 @@ const Training = () => {
             <p>Finalizado: 16 Diciembre 2022</p>
           </div>
         </div>
+        <a className='layer-link' href='#'>
+          <div className='layer'/>
+        </a>
       </div>
       <div className='training-card'>
         <div>
@@ -79,6 +85,9 @@ const Training = () => {
             <p>Finalizado: 4 Octubre 2023</p>
           </div>
         </div>
+        <a className='layer-link' href='#'>
+          <div className='layer'/>
+        </a>
       </div>
     </section>
   )

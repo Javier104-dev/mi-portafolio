@@ -87,6 +87,9 @@ const Skills = () => {
           <p>MongoDb</p>
         </div>
       </div>
+      <a className='layer-link'>
+        <div className='layer'/>
+      </a>
     </section>
   )
 }

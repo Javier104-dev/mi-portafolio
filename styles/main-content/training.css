@@ -1,6 +1,6 @@
 .training-section {
   margin-bottom: 9rem;
-  scroll-margin-top: 6rem
+  scroll-margin-top: 6rem;
 }
 
 .training-title {
@@ -14,6 +14,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .training-card:last-child {
@@ -38,4 +39,8 @@
 .training-card__description {
   font-size: 0.9rem;
   line-height: 1.3rem;
+}
+
+.training-card:hover .training-card__link {
+  color: #2dd4bf;
 }
