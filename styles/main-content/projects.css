@@ -42,7 +42,3 @@
 .projects-list__card:hover .projects-list__card__name {
   color: #2dd4bf;
 }
-
-.projects-section:hover .projects-title {
-  color: #2dd4bf;
-}
