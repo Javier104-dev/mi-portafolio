@@ -26,6 +26,7 @@
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
+  box-shadow: 3px 3px 3px black;
 }
 
 .training-card__name {

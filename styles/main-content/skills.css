@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  filter: drop-shadow(3px 3px 3px black);
 }
 
 .skills-section:hover .skills-title {
