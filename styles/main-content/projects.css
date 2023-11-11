@@ -6,7 +6,7 @@
   color: rgb(226 232 240);
   font-size: 1.3rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-list__card {
@@ -40,5 +40,9 @@
 }
 
 .projects-list__card:hover .projects-list__card__name {
+  color: #2dd4bf;
+}
+
+.projects-section:hover .projects-title {
   color: #2dd4bf;
 }

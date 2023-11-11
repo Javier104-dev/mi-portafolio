@@ -7,14 +7,10 @@
 .about-title {
   color: rgb(226 232 240);
   font-size: 1.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
 .about-paragraph {
   line-height: 1.5rem;
-}
-
-.about-section:hover .about-title {
-  color: #2dd4bf;
 }

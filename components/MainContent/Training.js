@@ -16,20 +16,20 @@ const Training = () => {
           />
         </div>
         <div>
-          <a
-            href='https://argentinaprograma.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='training-card__link'
-          >
+          <h1 className='training-card__name'>
             r/Argentina Programa
-          </a>
+          </h1>
           <div className='training-card__description'>
             <p>Inicio: 5 Mayo 2022</p>
             <p>Finalizado: 19 Octubre 2023</p>
           </div>
         </div>
-        <a className='layer-link' href='#'>
+        <a
+          className='layer-link'
+          href='https://argentinaprograma.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div className='layer'/>
         </a>
       </div>
@@ -44,20 +44,20 @@ const Training = () => {
           />
         </div>
         <div>
-          <a
-            href='https://www.oracle.com/ar/education/oracle-next-education/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='training-card__link'
-          >
-            Programa ONE Oracle
-          </a>
+          <h1 className='training-card__name'>
+            Programa ONE oracle
+          </h1>
           <div className='training-card__description'>
             <p>Inicio: 9 Agosto 2022</p>
             <p>Finalizado: 16 Diciembre 2022</p>
           </div>
         </div>
-        <a className='layer-link' href='#'>
+        <a
+          className='layer-link'
+          href='https://www.oracle.com/ar/education/oracle-next-education/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div className='layer'/>
         </a>
       </div>
@@ -72,20 +72,20 @@ const Training = () => {
           />
         </div>
         <div>
-          <a
-            href='https://www.argentina.gob.ar/economia/conocimiento/argentina-programa'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='training-card__link'
-          >
+          <h1 className='training-card__name'>
             Argentina Programa 4.0
-          </a>
+          </h1>
           <div className='training-card__description'>
             <p>Inicio: 28 Febrero 2023</p>
             <p>Finalizado: 4 Octubre 2023</p>
           </div>
         </div>
-        <a className='layer-link' href='#'>
+        <a
+          className='layer-link'
+          href='https://www.argentina.gob.ar/economia/conocimiento/argentina-programa'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div className='layer'/>
         </a>
       </div>

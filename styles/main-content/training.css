@@ -7,7 +7,7 @@
   color: rgb(226 232 240);
   font-size: 1.3rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .training-card {
@@ -28,10 +28,8 @@
   box-sizing: border-box;
 }
 
-.training-card__link {
-  display: inline-block;
+.training-card__name {
   color: rgb(226 232 240);
-  text-decoration: none;
   margin-bottom: 1rem;
   font-weight: 500;
 }
@@ -41,6 +39,10 @@
   line-height: 1.3rem;
 }
 
-.training-card:hover .training-card__link {
+.training-card:hover .training-card__name {
+  color: #2dd4bf;
+}
+
+.training-section:hover .training-title {
   color: #2dd4bf;
 }

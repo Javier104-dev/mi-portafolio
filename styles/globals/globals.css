@@ -18,11 +18,11 @@ body {
 }
 
 .layer {
-  height: calc(100% + 4rem);
-  width: calc(100% + 4rem);
+  height: calc(100% + 2rem);
+  width: calc(100% + 2rem);
   position: absolute;
-  top: -2rem;
-  left: -2rem;
+  top: -1rem;
+  left: -1rem;
   border-radius: 6px;
   box-sizing: border-box;
   border-top: 1px solid rgba(94, 234, 212, 0.1);

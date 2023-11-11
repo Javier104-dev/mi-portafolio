@@ -9,12 +9,7 @@ const Projects = () => {
       <div>
         {projects.map((project, i) => (
           <div key={i} className='projects-list__card'>
-            <a
-              href={project.repository}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='projects-list__card__link'
-            >
+            <div>
               <Image
                 src={'/projects/ahorcado.png'}
                 alt='Icon Github'
@@ -22,12 +17,17 @@ const Projects = () => {
                 width={120}
                 className='projects-list__card__photo'
               />
-            </a>
+            </div>
             <div>
               <h1 className='projects-list__card__name'>{project.name}</h1>
               <p className='projects-list__card__description'>{project.introduction}</p>
             </div>
-            <a className='layer-link' href='#'>
+            <a
+              className='layer-link'
+              href={project.repository}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <div className='layer'/>
             </a>
           </div>
