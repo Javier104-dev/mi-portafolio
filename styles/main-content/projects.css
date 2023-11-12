@@ -46,7 +46,6 @@
   color: #2dd4bf;
 }
 
-.projects-section:hover .projects-list__card:not(:hover),
-.projects-section:hover .projects-title:not(:hover) {
+.projects-list:hover .projects-list__card:not(:hover) {
   opacity: 0.3;
 }

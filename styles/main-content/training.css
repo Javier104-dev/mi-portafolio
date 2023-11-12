@@ -11,7 +11,7 @@
   transition: 0.2s;
 }
 
-.training-card {
+.training-list__card {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
@@ -19,11 +19,11 @@
   transition: 0.2s;
 }
 
-.training-card:last-child {
+.training-list__card:last-child {
   margin-bottom: 0rem;
 }
 
-.training-card__photo {
+.training-list__card__photo {
   object-fit: cover;
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -31,23 +31,22 @@
   box-shadow: 3px 3px 3px black;
 }
 
-.training-card__name {
+.training-list__card__name {
   color: rgb(226 232 240);
   margin-bottom: 1rem;
   font-weight: 500;
   transition: 0.2s;
 }
 
-.training-card__description {
+.training-list__card__description {
   font-size: 0.9rem;
   line-height: 1.3rem;
 }
 
-.training-card:hover .training-card__name {
+.training-list__card:hover .training-list__card__name {
   color: #2dd4bf;
 }
 
-.training-section:hover .training-card:not(:hover),
-.training-section:hover .training-title:not(:hover) {
+.training-list:hover .training-list__card:not(:hover) {
   opacity: 0.3;
 }
