@@ -7,14 +7,15 @@
   font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  transition: 0.2s;
 }
 
 .projects-list__card {
   display: flex;
   margin-bottom: 3rem;
-  transition: 0.2s;
   gap: 1rem;
   position: relative;
+  transition: 0.2s;
 }
 
 .projects-list__card__photo {
@@ -33,6 +34,7 @@
   color: rgb(226 232 240);
   margin-bottom: 1rem;
   font-weight: 500;
+  transition: 0.2s;
 }
 
 .projects-list__card__description {
@@ -42,4 +44,9 @@
 
 .projects-list__card:hover .projects-list__card__name {
   color: #2dd4bf;
+}
+
+.projects-section:hover .projects-list__card:not(:hover),
+.projects-section:hover .projects-title:not(:hover) {
+  opacity: 0.3;
 }

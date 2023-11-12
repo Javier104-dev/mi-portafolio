@@ -1,6 +1,7 @@
 'use client'
 import '@/styles/header/header.css'
-import Image from 'next/image';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -65,19 +66,14 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <ul className='header-networks'>
+        <ul className='header-socialmedia'>
           <li>
             <a
               href='https://www.linkedin.com/in/javier-villca-1ab624214/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                alt='Linkedin icon'
-                src='/social-networks/linkedin.png'
-                height={30}
-                width={30}
-              />
+              <FontAwesomeIcon icon={faLinkedin} size='2xl' className='header-socialmedia__link'/>
             </a>
           </li>
           <li>
@@ -85,12 +81,7 @@ const Header = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                alt='Github icon'
-                src='/social-networks/github.png'
-                height={30}
-                width={30}
-              />
+              <FontAwesomeIcon icon={faGithub} size='2xl' className='header-socialmedia__link'/>
             </a>
           </li>
           <li>
@@ -98,12 +89,7 @@ const Header = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                alt='Instagram icon'
-                src='/social-networks/instagram.png'
-                height={30}
-                width={30}
-              />
+              <FontAwesomeIcon icon={faInstagram} size='2xl' className='header-socialmedia__link'/>
             </a>
           </li>
         </ul>

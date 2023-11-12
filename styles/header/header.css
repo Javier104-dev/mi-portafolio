@@ -61,8 +61,15 @@
   padding-left: 1rem;
 }
 
-.header-networks {
+.header-socialmedia {
   display: flex;
   gap: 2rem;
-  font-size: 0;
+}
+
+.header-socialmedia__link {
+  color: rgb(148 163 184);
+}
+
+.header-socialmedia__link:hover {
+  color: rgb(226 232 240);
 }
