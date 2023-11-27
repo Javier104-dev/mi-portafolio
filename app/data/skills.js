@@ -31,6 +31,10 @@ const skills = [
     name: 'MongoDb',
     img: 'mongodb.png',
   },
+  {
+    name: 'Create React App',
+    img: 'create-react-app.png',
+  },
 ];
 
 export default skills;

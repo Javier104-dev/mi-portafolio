@@ -7,12 +7,11 @@
   font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
-  transition: 0.2s;
 }
 
 .projects-list__card {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   gap: 1rem;
   position: relative;
   transition: 0.2s;
