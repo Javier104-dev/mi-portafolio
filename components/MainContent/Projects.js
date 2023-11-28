@@ -6,15 +6,15 @@ const Projects = () => {
   return (
     <section className='projects-section' id='projects'>
       <h1 className='projects-title'>Proyectos</h1>
-      <div className='projects-list'>
+      <div>
         {projects.map((project, i) => (
           <div key={i} className='projects-list__card'>
             <div>
               <Image
-                src={'/projects/ahorcado.png'}
+                src={'/projects/' + project.img}
                 alt='Icon Github'
-                height={100}
-                width={120}
+                height={110}
+                width={130}
                 className='projects-list__card__photo'
               />
             </div>
