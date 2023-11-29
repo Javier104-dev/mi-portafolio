@@ -1,7 +1,6 @@
 .skills-section {
   margin-bottom: 9rem;
   scroll-margin-top: 6rem;
-  position: relative;
 }
 
 .skills-title {
@@ -9,13 +8,12 @@
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
-  transition: 0.2s;
 }
 
 .skills-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .skills-list__item {
@@ -24,12 +22,13 @@
   align-items: center;
   filter: drop-shadow(3px 3px 3px black);
   text-align: center;
+  position: relative;
 }
 
 .skills-list__item__icon {
   margin-bottom: 0.5rem;
 }
 
-.skills-section:hover .skills-title {
+.skills-list__item:hover .skills-list__item__name {
   color: #2dd4bf;
 }

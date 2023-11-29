@@ -25,9 +25,8 @@ body {
   left: -1rem;
   border-radius: 6px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(94, 234, 212, 0.1);
+  border: 1px solid rgba(94, 234, 212, 0.01);
   background-color: rgba(80, 100, 153, 0.1);
-  box-shadow: 1px 1px 1px black;
   opacity: 0;
   transition: 0.2s;
 }
