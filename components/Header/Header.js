@@ -21,7 +21,7 @@ const Header = () => {
           </Link>
           <p className='header-presentation__subtitle'>Programación Web Full Stack</p>
           <p className='header-presentation__paragraph'>
-            Estoy formándote en Programación Full Stack y actualmente estoy participando en el proyecto ONE en Alura Latam y estoy realizando el curso r/Argentina Programa
+            Estoy formándome en Programación Full Stack, tratando de enfocarme en el Back-end. Por ahora, he completado tres cursos: ONE - Oracle Next Education, Argentina Programa 4.0 y r/Argentina Programa.
           </p>
           <nav className='header-nav'>
             <ul>
