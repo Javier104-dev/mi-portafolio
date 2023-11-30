@@ -12,15 +12,13 @@ const Header = () => {
     <header className='header'>
       <section className='header-container'>
         <div>
-          <h1>
-            <Link
-              onClick={() => setSelected('')}
-              href='/'
-              className='header-presentation__title'
-            >
-              Javier Villca
-            </Link>
-          </h1>
+          <Link
+            onClick={() => setSelected('')}
+            href='/'
+            className='header-presentation__title'
+          >
+            <h1>Javier Villca</h1>
+          </Link>
           <p className='header-presentation__subtitle'>Programación Web Full Stack</p>
           <p className='header-presentation__paragraph'>
             Estoy formándote en Programación Full Stack y actualmente estoy participando en el proyecto ONE en Alura Latam y estoy realizando el curso r/Argentina Programa
@@ -37,31 +35,31 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   onClick={() => setSelected('option2')}
                   href='#skills'
                   className={'header-nav__link ' + (selected === 'option2' ? 'selected' : '')}
                 >
                   Skills
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   onClick={() => setSelected('option3')}
                   href='#training'
                   className={'header-nav__link ' + (selected === 'option3' ? 'selected' : '')}
                 >
                   Formación
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   onClick={() => setSelected('option4')}
                   href='#projects'
                   className={'header-nav__link ' + (selected === 'option4' ? 'selected' : '')}
                 >
                   Proyectos
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -72,24 +70,27 @@ const Header = () => {
               href='https://www.linkedin.com/in/javier-villca-1ab624214/'
               target='_blank'
               rel='noopener noreferrer'
+              className='header-socialmedia__link'
             >
-              <FontAwesomeIcon icon={faLinkedin} size='2xl' className='header-socialmedia__link'/>
+              <FontAwesomeIcon icon={faLinkedin} size='2xl'/>
             </a>
           </li>
-          <li>
+          <li className='da'>
             <a href='https://github.com/Javier104-dev'
               target='_blank'
               rel='noopener noreferrer'
+              className='header-socialmedia__link'
             >
-              <FontAwesomeIcon icon={faGithub} size='2xl' className='header-socialmedia__link'/>
+              <FontAwesomeIcon icon={faGithub} size='2xl'/>
             </a>
           </li>
           <li>
             <a href='https://www.instagram.com/javiervillca11/'
               target='_blank'
               rel='noopener noreferrer'
+              className='header-socialmedia__link'
             >
-              <FontAwesomeIcon icon={faInstagram} size='2xl' className='header-socialmedia__link'/>
+              <FontAwesomeIcon icon={faInstagram} size='2xl'/>
             </a>
           </li>
         </ul>
