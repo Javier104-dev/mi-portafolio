@@ -32,3 +32,10 @@
 .skills-list__item:hover .skills-list__item__name {
   color: #2dd4bf;
 }
+
+@media (max-width: 992px) {
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}

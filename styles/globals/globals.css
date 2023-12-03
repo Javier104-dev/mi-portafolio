@@ -34,3 +34,29 @@ body {
 .layer:hover{
   opacity: 1;
 }
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 5rem;
+  }
+
+  .layer {
+    height: calc(100% + 1rem);
+    width: calc(100% + 1rem);
+    top: -0.5rem;
+    left: -0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+}

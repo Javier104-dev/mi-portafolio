@@ -75,3 +75,31 @@
 .header-socialmedia__link:hover {
   color: rgb(226 232 240);
 }
+
+@media (max-width: 992px) {
+  .header {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: initial;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 2rem 0;
+    height: auto;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-socialmedia {
+    margin: 2rem 0;
+  }
+}

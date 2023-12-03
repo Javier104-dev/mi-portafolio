@@ -1,0 +1,22 @@
+/* 576px para teléfonos móviles
+768px para las tabletas
+992px para portátiles
+1200px para los grandes dispositivos */
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
