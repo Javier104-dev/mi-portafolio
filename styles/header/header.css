@@ -78,15 +78,9 @@
 
 @media (max-width: 992px) {
   .header {
-    padding: 4rem 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .header {
     position: initial;
     width: 100%;
-    padding: 2rem 0;
+    padding: 4rem 0;
     height: auto;
   }
 
@@ -96,5 +90,11 @@
 
   .header-socialmedia {
     margin: 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem 0;
   }
 }
