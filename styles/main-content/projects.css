@@ -24,6 +24,7 @@
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
   box-shadow: 3px 3px 3px black;
+  transition: 0.2s;
 }
 
 .projects-list__card:last-child {
@@ -40,6 +41,10 @@
 .projects-list__card__description {
   font-size: 0.9rem;
   line-height: 1.3rem;
+}
+
+.projects-list__card:hover .projects-list__card__photo {
+  border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 .projects-list__card:hover .projects-list__card__name {

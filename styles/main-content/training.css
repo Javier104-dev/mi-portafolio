@@ -42,6 +42,10 @@
   line-height: 1.3rem;
 }
 
+.training-list__card:hover .training-list__card__photo {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
 .training-list__card:hover .training-list__card__name {
   color: #2dd4bf;
 }
