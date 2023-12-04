@@ -5,13 +5,18 @@
 .projects-title {
   color: rgb(226 232 240);
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 1.5rem;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .projects-list__card {
   display: flex;
-  margin-bottom: 2rem;
   gap: 1rem;
   position: relative;
   transition: 0.2s;

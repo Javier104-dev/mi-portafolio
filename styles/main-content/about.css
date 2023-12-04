@@ -8,7 +8,7 @@
   color: rgb(226 232 240);
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .about-paragraph {
@@ -18,6 +18,7 @@
 
 .about-paragraph__span {
   color: rgb(226 232 240);
+  font-weight: 500;
 }
 
 .about-paragraph:last-child {

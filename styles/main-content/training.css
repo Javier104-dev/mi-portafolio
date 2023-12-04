@@ -6,20 +6,21 @@
 .training-title {
   color: rgb(226 232 240);
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 1.5rem;
+}
+
+.training-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .training-list__card {
   display: flex;
   gap: 1rem;
-  margin-bottom: 2rem;
   position: relative;
   transition: 0.2s;
-}
-
-.training-list__card:last-child {
-  margin-bottom: 0rem;
 }
 
 .training-list__card__photo {
