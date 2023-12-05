@@ -68,7 +68,7 @@
 }
 
 .header-socialmedia__link {
-  display: inline-block;
+  display: block;
   color: rgb(148 163 184);
 }
 

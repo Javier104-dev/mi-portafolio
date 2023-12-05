@@ -17,10 +17,13 @@
 }
 
 .training-list__card {
-  display: flex;
-  gap: 1rem;
   position: relative;
   transition: 0.2s;
+}
+
+.training-list__card__content {
+  display: flex;
+  gap: 1rem;
 }
 
 .training-list__card__photo {

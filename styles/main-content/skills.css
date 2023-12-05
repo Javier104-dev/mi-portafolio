@@ -17,12 +17,15 @@
 }
 
 .skills-list__item {
+  position: relative;
+}
+
+.skills-list__item__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   filter: drop-shadow(3px 3px 3px black);
   text-align: center;
-  position: relative;
 }
 
 .skills-list__item__icon {

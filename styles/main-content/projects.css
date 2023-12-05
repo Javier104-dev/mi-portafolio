@@ -16,11 +16,14 @@
 }
 
 .projects-list__card {
-  display: flex;
-  gap: 1rem;
   position: relative;
   transition: 0.2s;
+}
+
+.projects-list__card__content {
+  display: flex;
   box-sizing: border-box;
+  gap: 1rem;
 }
 
 .projects-list__card__photo {
@@ -30,10 +33,6 @@
   box-sizing: border-box;
   box-shadow: 3px 3px 3px black;
   transition: 0.2s;
-}
-
-.projects-list__card:last-child {
-  margin-bottom: 0rem;
 }
 
 .projects-list__card__name {
@@ -58,4 +57,11 @@
 
 .projects-list:hover .projects-list__card:not(:hover) {
   opacity: 0.3;
+}
+
+@media (max-width: 576px) {
+  .projects-list__card__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

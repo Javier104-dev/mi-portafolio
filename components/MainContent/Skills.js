@@ -9,14 +9,16 @@ const Skills = () => {
       <div className='skills-list'>
         {skills.map((e, i) => (
           <div key={i} className='skills-list__item'>
-            <Image
-              alt={e.name}
-              src={'/skills/' + e.img}
-              height={80}
-              width={80}
-              className='skills-list__item__icon'
-            />
-            <p className='skills-list__item__name'>{e.name}</p>
+            <div className='skills-list__item__content'>
+              <Image
+                alt={e.name}
+                src={'/skills/' + e.img}
+                height={80}
+                width={80}
+                className='skills-list__item__icon'
+              />
+              <p className='skills-list__item__name'>{e.name}</p>
+            </div>
             <a className='layer-link'>
               <div className='layer'/>
             </a>

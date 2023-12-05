@@ -9,22 +9,24 @@ const Training = () => {
       <div className='training-list'>
         {training.map((e, i) => (
           <div key={i} className='training-list__card'>
-            <div>
-              <Image
-                alt={e.name}
-                src={'/training/' + e.img}
-                height={120}
-                width={140}
-                className='training-list__card__photo'
-              />
-            </div>
-            <div>
-              <h1 className='training-list__card__name'>
-                {e.name}
-              </h1>
-              <div className='training-list__card__description'>
-                <p>{'Desde: ' + e.start}</p>
-                <p>{'Hasta: ' + e.end}</p>
+            <div className='training-list__card__content'>
+              <div>
+                <Image
+                  alt={e.name}
+                  src={'/training/' + e.img}
+                  height={120}
+                  width={140}
+                  className='training-list__card__photo'
+                />
+              </div>
+              <div>
+                <h1 className='training-list__card__name'>
+                  {e.name}
+                </h1>
+                <div className='training-list__card__description'>
+                  <p>{'Desde: ' + e.start}</p>
+                  <p>{'Hasta: ' + e.end}</p>
+                </div>
               </div>
             </div>
             <a

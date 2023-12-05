@@ -14,7 +14,7 @@ body {
 }
 
 .layer-link {
-  display: inline-block;
+  display: block;
 }
 
 .layer {

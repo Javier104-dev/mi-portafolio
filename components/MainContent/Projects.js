@@ -9,18 +9,20 @@ const Projects = () => {
       <div className='projects-list'>
         {projects.map((project, i) => (
           <div key={i} className='projects-list__card'>
-            <div>
-              <Image
-                src={'/projects/' + project.img}
-                alt='Icon Github'
-                height={110}
-                width={130}
-                className='projects-list__card__photo'
-              />
-            </div>
-            <div>
-              <h1 className='projects-list__card__name'>{project.name}</h1>
-              <p className='projects-list__card__description'>{project.introduction}</p>
+            <div className='projects-list__card__content'>
+              <div>
+                <Image
+                  src={'/projects/' + project.img}
+                  alt='Icon Github'
+                  height={110}
+                  width={130}
+                  className='projects-list__card__photo'
+                />
+              </div>
+              <div>
+                <h1 className='projects-list__card__name'>{project.name}</h1>
+                <p className='projects-list__card__description'>{project.introduction}</p>
+              </div>
             </div>
             <a
               className='layer-link'
