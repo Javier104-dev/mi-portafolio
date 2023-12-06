@@ -67,7 +67,7 @@ const Header = () => {
         <ul className='header-socialmedia'>
           <li>
             <a
-              href='https://www.linkedin.com/in/javier-villca-1ab624214/'
+              href='https://www.linkedin.com/in/javiervillca/'
               target='_blank'
               rel='noopener noreferrer'
               className='header-socialmedia__link'
