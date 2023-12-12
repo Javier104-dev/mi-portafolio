@@ -75,8 +75,9 @@ const Header = () => {
               <FontAwesomeIcon icon={faLinkedin} size='2xl'/>
             </a>
           </li>
-          <li className='da'>
-            <a href='https://github.com/Javier104-dev'
+          <li>
+            <a
+              href='https://github.com/Javier104-dev'
               target='_blank'
               rel='noopener noreferrer'
               className='header-socialmedia__link'
@@ -85,7 +86,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='https://www.instagram.com/javiervillca11/'
+            <a 
+              href='https://www.instagram.com/javiervillca11/'
               target='_blank'
               rel='noopener noreferrer'
               className='header-socialmedia__link'
