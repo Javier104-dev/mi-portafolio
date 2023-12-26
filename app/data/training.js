@@ -3,7 +3,7 @@ const training = [
     name: 'r/Argentina Programa',
     page: 'https://argentinaprograma.com/',
     start: '5 Mayo 2022',
-    end: '19 Octubre 2023',
+    end: 'Actualidad',
     img: 'argentina_programa.jpg',
   },
   {
